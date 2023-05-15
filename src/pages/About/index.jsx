@@ -7,21 +7,9 @@ const AboutPage = () => {
   return (
     <>
       <Header />
-      <div className='home-page'>
+      <div className='about-page'>
         <h1>About Page </h1>
         <p>This is the About page and this is text</p>
-
-        <ul>
-          <li>
-            <a href='../Home/index.jsx'>Home</a>
-          </li>
-          <li>
-            <a href='../Work/index.jsx'>Work</a>
-          </li>
-          <li>
-            <a href='../Contact/index.jsx'>Contact</a>
-          </li>
-        </ul>
       </div>
 
       <Footer />

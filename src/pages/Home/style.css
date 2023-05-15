@@ -7,9 +7,9 @@
   list-style: none;
 }
 
-body {
-  text-align: center;
-  background-color: rgb(228, 255, 213);
+.home-page {
+  background-color: red;
+
 }
 
 .home-page ul {

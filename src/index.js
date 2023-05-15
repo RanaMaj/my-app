@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import WorkPage from "./pages/Work/index";
-import AboutPage from "./pages/About/index";
-import ContactPage from "./pages/Contact/index";
+import {
+  HomePage,
+  AboutPage,
+  WorkPage,
+  ContactPage,
+  ErrorPage,
+} from "./pages/index.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "./pages/Home";
-import ErrorPage from "./pages/Error";
 
 const router = createBrowserRouter([
   {

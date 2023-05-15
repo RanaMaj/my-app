@@ -7,16 +7,11 @@
   list-style: none;
 }
 
-body {
-  text-align: center;
-  background-color: rgb(255, 213, 220);
-}
-
-.contact-page ul {
+.about-page ul {
   display: flex;
   justify-content: center;
 }
 
-.contact-page ul li {
+.about-page ul li {
   margin: 2%;
 }

@@ -1,28 +1,32 @@
-import HomePage from "./pages/Home";
-import AboutPage from "./pages/About";
-import WorkPage from "./pages/Work";
-import ContactPage from "./pages/Contact";
+import {
+  HomePage,
+  AboutPage,
+  WorkPage,
+  ContactPage,
+  ErrorPage,
+} from "./pages/index";
 import { Route, Routes } from "react-router-dom";
 
-// Pages
-
+// **  Pages
 // <WorkPage />
 // <ContactPage />
 // <AboutPage />
 
-// Components
-
+// ** Components
 // <Footer />
 // <Header />
+
 function App() {
   return (
     <>
-      <Routes>
+      {/* <HomePage /> */}
+      {/* <Routes>
         <Route path='/' element={<HomePage />}></Route>
         <Route path='/about' element={<AboutPage />}></Route>
         <Route path='/work' element={<WorkPage />}></Route>
         <Route path='/contact' element={<ContactPage />}></Route>
-      </Routes>
+        <Route path='/error' element={<ErrorPage />}></Route>
+      </Routes> */}
     </>
   );
 }
