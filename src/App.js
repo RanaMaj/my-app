@@ -2,8 +2,7 @@ import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
 import WorkPage from "./pages/Work";
 import ContactPage from "./pages/Contact";
-import Header from "./components/header";
-import Footer from "./components/footer/Footer";
+import { Route, Routes } from "react-router-dom";
 
 // Pages
 
@@ -16,7 +15,17 @@ import Footer from "./components/footer/Footer";
 // <Footer />
 // <Header />
 function App() {
-  return <HomePage />;
+  return (
+    <>
+      <HomePage />
+      <Routes>
+        <Route path='/' element={<HomePage />}></Route>
+        <Route path='/about' element={<AboutPage />}></Route>
+        <Route path='/work' element={<WorkPage />}></Route>
+        <Route path='/contact' element={<ContactPage />}></Route>
+      </Routes>
+    </>
+  );
 }
 
 export default App;

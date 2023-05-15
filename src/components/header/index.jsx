@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,16 +13,16 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href='/'>Home</a>
+              <NavLink to='/'>Home</NavLink>
             </li>
             <li>
-              <a href='/about'>About</a>
+              <NavLink to='/about'>About</NavLink>
             </li>
             <li>
-              <a href='/work'>Work</a>
+              <NavLink to='/work'>Work</NavLink>
             </li>
             <li>
-              <a href='contact'>Contact</a>
+              <NavLink to='/contact'>Contact</NavLink>
             </li>
           </ul>
         </nav>
