@@ -1,0 +1,23 @@
+/* Style */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(213, 231, 255);
+  color: #000;
+}
+
+.work-page ul {
+  display: flex;
+  justify-content: center;
+}
+
+.work-page ul li {
+  margin: 2%;
+}

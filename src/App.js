@@ -1,19 +1,22 @@
+import HomePage from "./pages/Home";
+import AboutPage from "./pages/About";
+import WorkPage from "./pages/Work";
+import ContactPage from "./pages/Contact";
+import Header from "./components/header";
+import Footer from "./components/footer/Footer";
+
+// Pages
+
+// <WorkPage />
+// <ContactPage />
+// <AboutPage />
+
+// Components
+
+// <Footer />
+// <Header />
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p className="title">React </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <HomePage />;
 }
 
 export default App;

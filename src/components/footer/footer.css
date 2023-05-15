@@ -1,0 +1,33 @@
+footer {
+  justify-content: space-around;
+  background-color: rgb(83, 83, 83);
+  color: #eee;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: inherit;
+}
+
+footer div {
+  margin: 1rem;
+}
+
+.top-footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+.top-footer ul li {
+  margin: 8%;
+  color: #eee;
+}
+
+.top-footer ul li a {
+  color: #eee;
+}

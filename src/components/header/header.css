@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(83, 83, 83);
+  color: #eee;
+}
+
+header div {
+  margin: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 8%;
+  color: #eee;
+}
+
+nav ul li a {
+  color: #eee;
+}
